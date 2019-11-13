@@ -21,25 +21,20 @@ def using_pop_with_args(dog_breeds)
   dog_breeds
 end
 
-def using_shift 
-  
-  
-  
+def using_shift(my_favorite_cities)
+  my_favorite_cities.shift(im_so_over_this_city)
 end
 
-def using_shift_with_args
-  
-  
+def using_shift_with_args(ice_cream_brands)
+  ice_cream_brands.shift(brands_removed)
 end
 
-def using_concat
-  
-  
+def using_concat(my_favorite_things)
+  my_favorite_things.concat(more_favs)
 end
 
-def using_insert
-  
-  
+def using_insert(list_of_programming_languages)
+  list_of_programming_languages[4].insert(another_language)
 end
 
 def using_uniq

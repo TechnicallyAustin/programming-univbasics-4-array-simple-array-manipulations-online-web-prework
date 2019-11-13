@@ -22,9 +22,9 @@ def using_shift(my_favorite_cities)
   my_favorite_cities.shift
 end
 
-def using_shift_with_args(ice_cream_brands)
+def shift_with_args(ice_cream_brands)
   ice_cream_brands.shift(2)
-  ice_cream_brands
+  
 end
 
 def using_concat(my_favorite_things)
